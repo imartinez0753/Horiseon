@@ -1,140 +1,144 @@
-/* this apperently has something to do with the aside */
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-    background-color: #d9dcd6;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #d9dcd6;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 /* trying to get the header to extend all the way left, handled the h1 tag nested in here
 still dealing with the div in here, */
 header {
-    padding: 20px 20px 20px 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
-    display: inline-block;
-    font-size: 48px;
-    width: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+  padding: 20px 20px 20px 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #2a607c;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 48px;
+  width: 100%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 /* tried to condense all h1s now its broke */
-h1{
-    display: inline-block;
-    font-size: 48px;
-    color: #ffffff;
-    padding-left:20px;  
-    padding-top: 7px;
+h1 {
+  display: inline-block;
+  font-size: 48px;
+  color: #ffffff;
+  padding-left: 20px;
+  padding-top: 7px;
 }
 
- .seo {
-    color: #d9dcd6;
+.seo {
+  color: #d9dcd6;
 }
 
- tabs {
-    list-style-type: none;
-    padding-top:35px;
-    margin-right: 25px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 18px;
-    display: inline-block;
-    margin-left: 25px;
+tabs {
+  list-style-type: none;
+  padding-top: 35px;
+  margin-right: 25px;
+  float: right;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+  display: inline-block;
+  margin-left: 25px;
 }
 
 a {
-    color: #ffffff;
-    text-decoration: none;
-    padding-right: 20px;  
-}   
-
+  color: #ffffff;
+  text-decoration: none;
+  padding-right: 20px;
+}
 
 p {
-    font-size: 16px;
-    color: #ffffff;
+  font-size: 16px;
+  color: #ffffff;
 }
 
 .hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
+  height: 800px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("../images/digital-marketing-meeting.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .float-left {
-    float: left;
-    margin-right: 25px;
+  float: left;
+  margin-right: 25px;
 }
 
 .float-right {
-    float: right;
-    margin-left: 25px;
+  float: right;
+  margin-left: 25px;
 }
 
 /* got rid of class=content made content element instead */
 content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+  width: 75%;
+  display: inline-block;
+  margin-left: 20px;
 }
 
 aside {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 970px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+  margin-right: 20px;
+  padding: 20px;
+  clear: both;
+  float: right;
+  width: 20%;
+  height: 970px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #2589bd;
 }
 
 /* not sure how these affect anything */
-.benefit-lead, .benefit-brand, .benefit-cost {
-    margin-bottom: 32px;
-    
+.benefit-lead,
+.benefit-brand,
+.benefit-cost {
+  margin-bottom: 32px;
 }
 
 /* try to make just one h3 */
 
-h3{
-    margin-bottom: 10px;
-    text-align: center;
+h3 {
+  margin-bottom: 10px;
+  text-align: center;
 }
 
 /* gonna try and get these all into one  */
- .benefit-lead, .benefit-brand, .benefit-cost h3{
-    margin-bottom: 10px;
-    text-align: center;
-    color: #ffffff;
+.benefit-lead,
+.benefit-brand,
+.benefit-cost h3 {
+  margin-bottom: 10px;
+  text-align: center;
+  color: #ffffff;
 }
 
-.benefit-lead img,.benefit-cost img,.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
+.benefit-lead img,
+.benefit-cost img,
+.benefit-brand img {
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
 }
 
 /* renamed so I could apply to other classes */
 .section {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 310px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 310px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
 }
 
 /* had to change this as well for ease of use */
 .section img {
-    max-height: 200px;
+  max-height: 200px;
 }
 /* had to change name as well to "section" */
 /* .section img {
@@ -142,18 +146,19 @@ h3{
 }
 
 /* assuming I can condense all this to one h2 and one class */
-h2{margin-bottom: 20px;
-    font-size: 36px;
-
+h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
 }
 
 .footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
+  padding: 30px;
+  clear: both;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
 }
 
 .footer h4 {
-    font-size: 20px;
+  font-size: 20px;
 }
